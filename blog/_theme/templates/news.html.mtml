@@ -2,7 +2,7 @@
 <html lang="<$mt:BlogLanguage$>" itemscope itemtype="http://schema.org/WebPage">
 <head>
 <meta charset="<$mt:PublishCharset$>">
-<title>ニュース | <$mt:BlogName encode_html="1"$></title>
+<title>スタッフブログ | <$mt:BlogName encode_html="1"$></title>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="<$mt:BlogDescription remove_html="1" encede_html="1"$>">
 <meta name="keywords" content="<$mt:GetVar name="metakeywords"$>">
@@ -15,7 +15,7 @@
 <!-- Open Graph Protocol -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="<$mt:BlogLanguage setvar="blog_lang"$><mt:If name="blog_lang" eq="ja">ja_JP<mt:Else><$mt:Var name="blog_lang"$></mt:If>">
-<meta property="og:title" content="ニュース | <$mt:BlogName encode_html="1"$>">
+<meta property="og:title" content="スタッフブログ | <$mt:BlogName encode_html="1"$>">
 <meta property="og:url" content="<$mt:BlogURL encode_html="1"$>news.html">
 <meta property="og:description" content="<$mt:BlogDescription remove_html="1" encede_html="1"$>">
 <meta property="og:site_name" content="<$mt:BlogName encode_html="1"$>">
@@ -38,7 +38,7 @@
     <nav role="navigation">
       <ul class="breadcrumbs">
         <li class="home"><a href="<$mt:BlogRelativeURL$>"><i class="fa fa-home fa-lg"></i></a></li>
-        <li><span>ニュース</span></li>
+        <li><span>スタッフブログ</span></li>
       </ul>
     </nav>
    </div>
@@ -50,7 +50,7 @@
       <img src="<$mt:BlogURL encode_html="1"$>images/slide01.jpg" alt="" width="0" height="0">
       <div class="page-banner">
         <div class="inner">
-          <h2><i class="fa fa-sun-o"></i> <a href="<$mt:BlogRelativeURL$>news.html">ニュース</a></h2>
+          <h2><i class="fa fa-sun-o"></i> <a href="<$mt:BlogRelativeURL$>news.html">スタッフブログ</a></h2>
         </div>
       </div>
     </div><!-- mainvisual -->
@@ -60,7 +60,7 @@
 <div class="row">
   <div class="columns medium-8 large-8">
     <div id="content">
-      <h3 class="page-title">ニュース一覧</h3>
+      <h3 class="page-title">スタッフブログ一覧</h3>
       <div id="entry-list">
         <$mt:Include module="entry-list"$>
       </div>
